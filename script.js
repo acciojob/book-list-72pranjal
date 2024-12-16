@@ -26,6 +26,7 @@ document.getElementById('submit').addEventListener('click', function(event) {
     // create a delete button and append it to the row
     var deleteButton = document.createElement('button');
     deleteButton.textContent = 'Delete';
+	deleteButton.className = 'delete'
     deleteCell.appendChild(deleteButton);
     newRow.appendChild(deleteCell);
 
